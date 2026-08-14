@@ -1,2 +1,1 @@
-# Pico2w_framework
-Framework for mqqt pico
+Raspberry Pi Pico 2 W modular MicroPython IoT project. Configure config/*.py. DS18B20 supports multiple physical sensors on one OneWire bus; each gets its own hardware_id (ROM/serial) and MQTT message. Sensors without a hardware ID use an empty string. The web page shows live readings and JSON state. Review/replace the OTA module before production use.
