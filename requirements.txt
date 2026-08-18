@@ -1,4 +1,7 @@
-umqtt.simple
-urequests
-onewire
-ds18x20
+# MicroPython built-in / mip packages
+# umqtt.simple    -> built into MicroPython firmware or install via mip
+# urequests       -> built into MicroPython firmware or install via mip
+# onewire         -> built into MicroPython firmware
+# ds18x20         -> built into MicroPython firmware
+# dht             -> built into MicroPython firmware
+# Install via: mpremote mip install umqtt.simple
