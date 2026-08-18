@@ -1,4 +1,10 @@
 SENSORS=[
  {'id':'environment','driver':'dht22','pin':15,'location':'server_room'},
- {'id':'water_temperature','driver':'ds18b20','pin':4,'location':'water_tank'}
+ {'id':'water_temperature','driver':'ds18b20','pin':4,'location':'water_tank'},
+ {'id':'climate','driver':'bme280','i2c_bus':0,'sda':0,'scl':1,'location':'greenhouse'},
+ {'id':'aht_climate','driver':'aht20','i2c_bus':0,'sda':0,'scl':1,'location':'office'},
+ {'id':'tank_level','driver':'sr04m','trigger_pin':5,'echo_pin':6,'location':'water_tank'},
+ {'id':'motion','driver':'motion','pin':14,'location':'entrance'},
+ {'id':'ambient_light','driver':'analog_light','pin':26,'location':'garden'},
+ {'id':'lux_meter','driver':'bh1750','i2c_bus':0,'sda':0,'scl':1,'location':'greenhouse'},
 ]
